@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" copyrightText="" modelDirectory="/Eugenia_ArcadeTongame/src" modelPluginID="Eugenia_ArcadeTongame"
+    modelName="ArcadeTongame_editor" importerID="org.eclipse.emf.importer.ecore" complianceLevel="6.0"
+    copyrightFields="false">
+  <foreignModel>ArcadeTongame_editor.emf</foreignModel>
+  <genPackages prefix="ArcadeTongame_editor" disposableProviderFactory="true" ecorePackage="ArcadeTongame_editor.ecore#/">
+    <genClasses ecoreClass="ArcadeTongame_editor.ecore#//Game">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ArcadeTongame_editor.ecore#//Game/stages"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ArcadeTongame_editor.ecore#//Game/stagesconnections"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ArcadeTongame_editor.ecore#//Game/height"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ArcadeTongame_editor.ecore#//Game/width"/>
+    </genClasses>
+    <genClasses ecoreClass="ArcadeTongame_editor.ecore#//Stage">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ArcadeTongame_editor.ecore#//Stage/elements"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ArcadeTongame_editor.ecore#//Stage/name"/>
+    </genClasses>
+    <genClasses ecoreClass="ArcadeTongame_editor.ecore#//StagesConnection">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ArcadeTongame_editor.ecore#//StagesConnection/source"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ArcadeTongame_editor.ecore#//StagesConnection/target"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="ArcadeTongame_editor.ecore#//Element">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ArcadeTongame_editor.ecore#//Element/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ArcadeTongame_editor.ecore#//Element/position_x"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ArcadeTongame_editor.ecore#//Element/position_y"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ArcadeTongame_editor.ecore#//Element/size_x"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ArcadeTongame_editor.ecore#//Element/size_y"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="ArcadeTongame_editor.ecore#//Opener">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ArcadeTongame_editor.ecore#//Opener/opens"/>
+    </genClasses>
+    <genClasses ecoreClass="ArcadeTongame_editor.ecore#//Wall"/>
+    <genClasses ecoreClass="ArcadeTongame_editor.ecore#//Sound">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ArcadeTongame_editor.ecore#//Sound/filename"/>
+    </genClasses>
+    <genClasses ecoreClass="ArcadeTongame_editor.ecore#//Text">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ArcadeTongame_editor.ecore#//Text/text"/>
+    </genClasses>
+    <genClasses ecoreClass="ArcadeTongame_editor.ecore#//In">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ArcadeTongame_editor.ecore#//In/isStart"/>
+    </genClasses>
+    <genClasses ecoreClass="ArcadeTongame_editor.ecore#//Out">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ArcadeTongame_editor.ecore#//Out/isOpen"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

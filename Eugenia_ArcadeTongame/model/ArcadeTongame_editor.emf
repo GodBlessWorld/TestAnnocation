@@ -1,0 +1,61 @@
+
+@namespace(uri="filesystem", prefix="filesystem")
+@gmf(foo="bar")
+package ArcadeTongame_editor;
+
+@gmf.diagram(foo="bar")
+class Game {
+    val Stage[*] stages;
+    val StagesConnection[*] stagesconnections;
+    attr float height;
+    attr float width;
+}
+
+@gmf.node(label = "name")
+class Stage {
+	@gmf.compartment(foo="bar")
+    val Element[*] elements;
+    attr String name;
+}
+
+@gmf.link(source="source", target="target", style="dot", width="2")
+class StagesConnection {
+    ref Out source;
+    ref In target;
+}
+
+@gmf.node(label = "name")
+abstract class Element {
+    attr String name;
+    attr float position_x;
+    attr float position_y;
+    attr float size_x;
+    attr float size_y;
+}
+
+
+abstract class Opener extends Element {
+    @gmf.link(target.decoration="arrow", style="dash")
+    ref Out opens;
+}
+
+class Wall extends Opener {
+    
+}
+
+class Sound extends Opener {
+    attr String filename;
+}
+
+class Text extends Opener {
+    attr String text;
+}
+
+class In extends Element {
+    attr boolean isStart;
+    
+}
+
+class Out extends Element {
+    attr boolean isOpen;
+}
