@@ -30,7 +30,7 @@ public class ArcadeTongame_editorFactoryImpl extends EFactoryImpl implements Arc
   {
     try
     {
-      ArcadeTongame_editorFactory theArcadeTongame_editorFactory = (ArcadeTongame_editorFactory)EPackage.Registry.INSTANCE.getEFactory("filesystem"); 
+      ArcadeTongame_editorFactory theArcadeTongame_editorFactory = (ArcadeTongame_editorFactory)EPackage.Registry.INSTANCE.getEFactory("http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL"); 
       if (theArcadeTongame_editorFactory != null)
       {
         return theArcadeTongame_editorFactory;

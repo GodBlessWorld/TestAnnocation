@@ -39,7 +39,7 @@ public interface ArcadeTongame_editorPackage extends EPackage
    * <!-- end-user-doc -->
    * @generated
    */
-  String eNS_URI = "filesystem";
+  String eNS_URI = "http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL";
 
   /**
    * The package namespace name.
@@ -47,7 +47,7 @@ public interface ArcadeTongame_editorPackage extends EPackage
    * <!-- end-user-doc -->
    * @generated
    */
-  String eNS_PREFIX = "filesystem";
+  String eNS_PREFIX = "ArcadeTongame_editor";
 
   /**
    * The singleton instance of the package.

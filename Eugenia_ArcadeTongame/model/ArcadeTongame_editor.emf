@@ -1,5 +1,5 @@
 
-@namespace(uri="filesystem", prefix="filesystem")
+@namespace(uri="http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL", prefix="ArcadeTongame_editor")
 @gmf(foo="bar")
 package ArcadeTongame_editor;
 
