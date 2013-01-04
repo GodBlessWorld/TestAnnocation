@@ -42,9 +42,13 @@
           title="Stage"
           description="Create new Stage">
         <smallIcon
-            xsi:type="gmftool:DefaultImage"/>
+            xsi:type="gmftool:BundleImage"
+            path="icons/Stage24x24.ico"
+            bundle="Eugenia_ArcadeTongame"/>
         <largeIcon
-            xsi:type="gmftool:DefaultImage"/>
+            xsi:type="gmftool:BundleImage"
+            path="icons/Stage24x24.ico"
+            bundle="Eugenia_ArcadeTongame"/>
       </tools>
       <tools
           xsi:type="gmftool:CreationTool"

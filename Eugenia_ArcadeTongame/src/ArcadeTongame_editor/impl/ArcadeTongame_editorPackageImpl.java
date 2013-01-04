@@ -653,7 +653,12 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
        source, 
        new String[] 
        {
-       "label", "name"
+       "label", "name",
+       "size", "250,200",
+       "tool.large.bundle", "Eugenia_ArcadeTongame",
+       "tool.large.path", "icons/Stage24x24.ico",
+       "tool.small.bundle", "Eugenia_ArcadeTongame",
+       "tool.small.path", "icons/Stage24x24.ico"
        });				
     addAnnotation
       (elementEClass, 

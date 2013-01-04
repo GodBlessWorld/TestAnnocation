@@ -15,6 +15,9 @@
       <actualFigure
           xsi:type="gmfgraph:RoundedRectangle"
           name="StageFigure">
+        <preferredSize
+            dx="250"
+            dy="200"/>
         <border
             xsi:type="gmfgraph:MarginBorder">
           <insets
@@ -178,7 +181,14 @@
   </figures>
   <nodes
       name="Stage"
-      figure="StageFigure"/>
+      figure="StageFigure">
+    <facets
+        xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize
+          dx="250"
+          dy="200"/>
+    </facets>
+  </nodes>
   <nodes
       name="Wall"
       figure="WallFigure"/>

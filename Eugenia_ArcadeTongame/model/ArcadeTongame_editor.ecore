@@ -19,6 +19,11 @@
   <eClassifiers xsi:type="ecore:EClass" name="Stage">
     <eAnnotations source="gmf.node">
       <details key="label" value="name"/>
+      <details key="size" value="250,200"/>
+      <details key="tool.large.bundle" value="Eugenia_ArcadeTongame"/>
+      <details key="tool.large.path" value="icons/Stage24x24.ico"/>
+      <details key="tool.small.bundle" value="Eugenia_ArcadeTongame"/>
+      <details key="tool.small.path" value="icons/Stage24x24.ico"/>
     </eAnnotations>
     <eStructuralFeatures xsi:type="ecore:EReference" name="elements" upperBound="-1"
         eType="#//Element" containment="true">
