@@ -46,9 +46,7 @@
             path="icons/Stage24x24.ico"
             bundle="Eugenia_ArcadeTongame"/>
         <largeIcon
-            xsi:type="gmftool:BundleImage"
-            path="icons/Stage24x24.ico"
-            bundle="Eugenia_ArcadeTongame"/>
+            xsi:type="gmftool:DefaultImage"/>
       </tools>
       <tools
           xsi:type="gmftool:CreationTool"

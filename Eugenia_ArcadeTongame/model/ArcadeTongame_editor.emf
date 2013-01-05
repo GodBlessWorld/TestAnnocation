@@ -58,6 +58,7 @@ class In extends Element {
     
 }
 
+@gmf.node(figure = "svg", svg.uri = "platform:/plugin/Eugenia_ArcadeTongame/figures/door_close.svg")
 class Out extends Element {
     attr boolean isOpen;
 }

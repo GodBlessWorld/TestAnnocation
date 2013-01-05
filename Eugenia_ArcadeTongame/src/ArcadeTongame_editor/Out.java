@@ -16,7 +16,7 @@ package ArcadeTongame_editor;
  * </p>
  *
  * @see ArcadeTongame_editor.ArcadeTongame_editorPackage#getOut()
- * @model
+ * @model annotation="gmf.node figure='svg' svg.uri='platform:/plugin/Eugenia_ArcadeTongame/figures/door_close.svg'"
  * @generated
  */
 public interface Out extends Element

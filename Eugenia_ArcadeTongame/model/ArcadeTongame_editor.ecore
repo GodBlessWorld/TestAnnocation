@@ -20,8 +20,6 @@
     <eAnnotations source="gmf.node">
       <details key="label" value="name"/>
       <details key="size" value="250,200"/>
-      <details key="tool.large.bundle" value="Eugenia_ArcadeTongame"/>
-      <details key="tool.large.path" value="icons/Stage24x24.ico"/>
       <details key="tool.small.bundle" value="Eugenia_ArcadeTongame"/>
       <details key="tool.small.path" value="icons/Stage24x24.ico"/>
     </eAnnotations>
@@ -72,6 +70,10 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="isStart" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Out" eSuperTypes="#//Element">
+    <eAnnotations source="gmf.node">
+      <details key="figure" value="svg"/>
+      <details key="svg.uri" value="platform:/plugin/Eugenia_ArcadeTongame/figures/door_close.svg"/>
+    </eAnnotations>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="isOpen" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
   </eClassifiers>
 </ecore:EPackage>

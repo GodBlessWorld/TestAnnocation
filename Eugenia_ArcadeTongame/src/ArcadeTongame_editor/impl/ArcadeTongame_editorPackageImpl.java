@@ -618,7 +618,7 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
        new String[] 
        {
        "foo", "bar"
-       });						
+       });							
   }
 
   /**
@@ -636,7 +636,7 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
        new String[] 
        {
        "foo", "bar"
-       });					
+       });						
   }
 
   /**
@@ -655,8 +655,6 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
        {
        "label", "name",
        "size", "250,200",
-       "tool.large.bundle", "Eugenia_ArcadeTongame",
-       "tool.large.path", "icons/Stage24x24.ico",
        "tool.small.bundle", "Eugenia_ArcadeTongame",
        "tool.small.path", "icons/Stage24x24.ico"
        });				
@@ -666,7 +664,15 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
        new String[] 
        {
        "label", "name"
-       });	
+       });			
+    addAnnotation
+      (outEClass, 
+       source, 
+       new String[] 
+       {
+       "figure", "svg",
+       "svg.uri", "platform:/plugin/Eugenia_ArcadeTongame/figures/door_close.svg"
+       });
   }
 
   /**
@@ -684,7 +690,7 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
        new String[] 
        {
        "foo", "bar"
-       });			
+       });				
   }
 
   /**
@@ -713,7 +719,7 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
        {
        "target.decoration", "arrow",
        "style", "dash"
-       });
+       });	
   }
 
 } //ArcadeTongame_editorPackageImpl

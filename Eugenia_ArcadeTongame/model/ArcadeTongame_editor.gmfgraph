@@ -137,8 +137,9 @@
     <descriptors
         name="OutFigure">
       <actualFigure
-          xsi:type="gmfgraph:RoundedRectangle"
-          name="OutFigure">
+          xsi:type="gmfgraph:SVGFigure"
+          name="OutFigure"
+          documentURI="platform:/plugin/Eugenia_ArcadeTongame/figures/door_close.svg">
         <border
             xsi:type="gmfgraph:MarginBorder">
           <insets
