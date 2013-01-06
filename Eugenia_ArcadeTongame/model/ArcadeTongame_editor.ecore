@@ -55,26 +55,65 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="opens" eType="#//Out">
       <eAnnotations source="gmf.link">
         <details key="target.decoration" value="arrow"/>
-        <details key="style" value="dash"/>
+        <details key="style" value="solid"/>
+        <details key="tool.small.bundle" value="Eugenia_ArcadeTongame"/>
+        <details key="tool.small.path" value="icons/opens24x24.ico"/>
       </eAnnotations>
     </eStructuralFeatures>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Wall" eSuperTypes="#//Opener"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Wall" eSuperTypes="#//Opener">
+    <eAnnotations source="gmf.node">
+      <details key="tool.small.bundle" value="Eugenia_ArcadeTongame"/>
+      <details key="tool.small.path" value="icons/Wall24x24.ico"/>
+      <details key="label.icon" value="false"/>
+      <details key="label.placement" value="none"/>
+      <details key="figure" value="svg"/>
+      <details key="svg.uri" value="platform:/plugin/Eugenia_ArcadeTongame/figures/Wall.svg"/>
+    </eAnnotations>
+  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Sound" eSuperTypes="#//Opener">
+    <eAnnotations source="gmf.node">
+      <details key="tool.small.bundle" value="Eugenia_ArcadeTongame"/>
+      <details key="tool.small.path" value="icons/Sound24x24.ico"/>
+      <details key="label.icon" value="false"/>
+      <details key="label.placement" value="none"/>
+      <details key="figure" value="svg"/>
+      <details key="svg.uri" value="platform:/plugin/Eugenia_ArcadeTongame/figures/Sound.svg"/>
+    </eAnnotations>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="filename" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Text" eSuperTypes="#//Opener">
+    <eAnnotations source="gmf.node">
+      <details key="tool.small.bundle" value="Eugenia_ArcadeTongame"/>
+      <details key="tool.small.path" value="icons/Text24x24.ico"/>
+      <details key="label.icon" value="false"/>
+      <details key="label.placement" value="none"/>
+      <details key="figure" value="svg"/>
+      <details key="svg.uri" value="platform:/plugin/Eugenia_ArcadeTongame/figures/Text.svg"/>
+    </eAnnotations>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="text" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="In" eSuperTypes="#//Element">
+    <eAnnotations source="gmf.node">
+      <details key="tool.small.bundle" value="Eugenia_ArcadeTongame"/>
+      <details key="tool.small.path" value="icons/In24x24.ico"/>
+      <details key="label.icon" value="false"/>
+      <details key="label.placement" value="none"/>
+      <details key="figure" value="svg"/>
+      <details key="svg.uri" value="platform:/plugin/Eugenia_ArcadeTongame/figures/In.svg"/>
+    </eAnnotations>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="isStart" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Out" eSuperTypes="#//Element">
     <eAnnotations source="gmf.node">
+      <details key="border.color" value="184,46,50"/>
+      <details key="border.width" value="30"/>
+      <details key="tool.small.bundle" value="Eugenia_ArcadeTongame"/>
+      <details key="tool.small.path" value="icons/Out24x24.ico"/>
       <details key="label.icon" value="false"/>
-      <details key="label.placement" value="external"/>
+      <details key="label.placement" value="none"/>
       <details key="figure" value="svg"/>
-      <details key="svg.uri" value="platform:/plugin/Eugenia_ArcadeTongame/figures/door_close.svg"/>
+      <details key="svg.uri" value="platform:/plugin/Eugenia_ArcadeTongame/figures/Out.svg"/>
     </eAnnotations>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="isOpen" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
   </eClassifiers>

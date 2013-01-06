@@ -16,7 +16,7 @@ package ArcadeTongame_editor;
  * </p>
  *
  * @see ArcadeTongame_editor.ArcadeTongame_editorPackage#getSound()
- * @model
+ * @model annotation="gmf.node tool.small.bundle='Eugenia_ArcadeTongame' tool.small.path='icons/Sound24x24.ico' label.icon='false' label.placement='none' figure='svg' svg.uri='platform:/plugin/Eugenia_ArcadeTongame/figures/Sound.svg'"
  * @generated
  */
 public interface Sound extends Opener

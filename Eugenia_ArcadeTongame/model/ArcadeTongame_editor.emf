@@ -1,4 +1,10 @@
 
+/* Notes:
+	- tool.small.bundle="write here the name of the workspace"
+	- border.color = "..." (and border.width) looks useless when an svg image is used.
+	- I don't see the difference between using tool.small or tool.large
+*/
+
 @namespace(uri="http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL", prefix="ArcadeTongame_editor")
 @gmf(foo="bar")
 
@@ -12,7 +18,6 @@ class Game {
     attr float width;
 }
 
-// I don't see the difference between using tool.small or tool.large
 @gmf.node(label = "name", size = "250,200", tool.small.bundle="Eugenia_ArcadeTongame", tool.small.path="icons/Stage24x24.ico")
 class Stage {
 	@gmf.compartment(foo="bar")
@@ -37,28 +42,31 @@ abstract class Element {
 
 
 abstract class Opener extends Element {
-    @gmf.link(target.decoration="arrow", style="dash")
+    @gmf.link(target.decoration="arrow", style="solid", tool.small.bundle="Eugenia_ArcadeTongame", tool.small.path="icons/opens24x24.ico")
     ref Out opens;
 }
 
+@gmf.node(tool.small.bundle="Eugenia_ArcadeTongame", tool.small.path="icons/Wall24x24.ico", label.icon = "false", label.placement = "none", figure = "svg", svg.uri = "platform:/plugin/Eugenia_ArcadeTongame/figures/Wall.svg")
 class Wall extends Opener {
     
 }
 
+@gmf.node(tool.small.bundle="Eugenia_ArcadeTongame", tool.small.path="icons/Sound24x24.ico", label.icon = "false", label.placement = "none", figure = "svg", svg.uri = "platform:/plugin/Eugenia_ArcadeTongame/figures/Sound.svg")
 class Sound extends Opener {
     attr String filename;
 }
 
+@gmf.node(tool.small.bundle="Eugenia_ArcadeTongame", tool.small.path="icons/Text24x24.ico", label.icon = "false", label.placement = "none", figure = "svg", svg.uri = "platform:/plugin/Eugenia_ArcadeTongame/figures/Text.svg")
 class Text extends Opener {
     attr String text;
 }
 
-@gmf.node(label.icon = "false", label.placement = "none", figure = "svg", svg.uri = "platform:/plugin/Eugenia_ArcadeTongame/figures/door_close.svg")
+@gmf.node(tool.small.bundle="Eugenia_ArcadeTongame", tool.small.path="icons/In24x24.ico", label.icon = "false", label.placement = "none", figure = "svg", svg.uri = "platform:/plugin/Eugenia_ArcadeTongame/figures/In.svg")
 class In extends Element {
     attr boolean isStart;    
 }
 
-@gmf.node(label.icon = "false", label.placement = "none", figure = "svg", svg.uri = "platform:/plugin/Eugenia_ArcadeTongame/figures/door_close.svg")
+@gmf.node(border.color = "184,46,50", border.width = "30", tool.small.bundle="Eugenia_ArcadeTongame", tool.small.path="icons/Out24x24.ico", label.icon = "false", label.placement = "none", figure = "svg", svg.uri = "platform:/plugin/Eugenia_ArcadeTongame/figures/Out.svg")
 class Out extends Element {
     attr boolean isOpen;
 }

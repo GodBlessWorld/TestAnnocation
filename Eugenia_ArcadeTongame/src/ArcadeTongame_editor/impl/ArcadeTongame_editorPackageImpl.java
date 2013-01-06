@@ -618,7 +618,7 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
        new String[] 
        {
        "foo", "bar"
-       });							
+       });											
   }
 
   /**
@@ -636,7 +636,7 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
        new String[] 
        {
        "foo", "bar"
-       });						
+       });										
   }
 
   /**
@@ -666,14 +666,66 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
        "label", "name"
        });			
     addAnnotation
+      (wallEClass, 
+       source, 
+       new String[] 
+       {
+       "tool.small.bundle", "Eugenia_ArcadeTongame",
+       "tool.small.path", "icons/Wall24x24.ico",
+       "label.icon", "false",
+       "label.placement", "none",
+       "figure", "svg",
+       "svg.uri", "platform:/plugin/Eugenia_ArcadeTongame/figures/Wall.svg"
+       });		
+    addAnnotation
+      (soundEClass, 
+       source, 
+       new String[] 
+       {
+       "tool.small.bundle", "Eugenia_ArcadeTongame",
+       "tool.small.path", "icons/Sound24x24.ico",
+       "label.icon", "false",
+       "label.placement", "none",
+       "figure", "svg",
+       "svg.uri", "platform:/plugin/Eugenia_ArcadeTongame/figures/Sound.svg"
+       });		
+    addAnnotation
+      (textEClass, 
+       source, 
+       new String[] 
+       {
+       "tool.small.bundle", "Eugenia_ArcadeTongame",
+       "tool.small.path", "icons/Text24x24.ico",
+       "label.icon", "false",
+       "label.placement", "none",
+       "figure", "svg",
+       "svg.uri", "platform:/plugin/Eugenia_ArcadeTongame/figures/Text.svg"
+       });		
+    addAnnotation
+      (inEClass, 
+       source, 
+       new String[] 
+       {
+       "tool.small.bundle", "Eugenia_ArcadeTongame",
+       "tool.small.path", "icons/In24x24.ico",
+       "label.icon", "false",
+       "label.placement", "none",
+       "figure", "svg",
+       "svg.uri", "platform:/plugin/Eugenia_ArcadeTongame/figures/In.svg"
+       });		
+    addAnnotation
       (outEClass, 
        source, 
        new String[] 
        {
+       "border.color", "184,46,50",
+       "border.width", "30",
+       "tool.small.bundle", "Eugenia_ArcadeTongame",
+       "tool.small.path", "icons/Out24x24.ico",
        "label.icon", "false",
-       "label.placement", "external",
+       "label.placement", "none",
        "figure", "svg",
-       "svg.uri", "platform:/plugin/Eugenia_ArcadeTongame/figures/door_close.svg"
+       "svg.uri", "platform:/plugin/Eugenia_ArcadeTongame/figures/Out.svg"
        });
   }
 
@@ -692,7 +744,7 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
        new String[] 
        {
        "foo", "bar"
-       });				
+       });								
   }
 
   /**
@@ -720,8 +772,10 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
        new String[] 
        {
        "target.decoration", "arrow",
-       "style", "dash"
-       });	
+       "style", "solid",
+       "tool.small.bundle", "Eugenia_ArcadeTongame",
+       "tool.small.path", "icons/opens24x24.ico"
+       });					
   }
 
 } //ArcadeTongame_editorPackageImpl

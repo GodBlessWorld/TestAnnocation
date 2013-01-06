@@ -16,7 +16,7 @@ package ArcadeTongame_editor;
  * </p>
  *
  * @see ArcadeTongame_editor.ArcadeTongame_editorPackage#getOut()
- * @model annotation="gmf.node label.icon='false' label.placement='external' figure='svg' svg.uri='platform:/plugin/Eugenia_ArcadeTongame/figures/door_close.svg'"
+ * @model annotation="gmf.node border.color='184,46,50' border.width='30' tool.small.bundle='Eugenia_ArcadeTongame' tool.small.path='icons/Out24x24.ico' label.icon='false' label.placement='none' figure='svg' svg.uri='platform:/plugin/Eugenia_ArcadeTongame/figures/Out.svg'"
  * @generated
  */
 public interface Out extends Element

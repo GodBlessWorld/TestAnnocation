@@ -15,7 +15,9 @@
           title="In"
           description="Create new In">
         <smallIcon
-            xsi:type="gmftool:DefaultImage"/>
+            xsi:type="gmftool:BundleImage"
+            path="icons/In24x24.ico"
+            bundle="Eugenia_ArcadeTongame"/>
         <largeIcon
             xsi:type="gmftool:DefaultImage"/>
       </tools>
@@ -24,7 +26,9 @@
           title="Out"
           description="Create new Out">
         <smallIcon
-            xsi:type="gmftool:DefaultImage"/>
+            xsi:type="gmftool:BundleImage"
+            path="icons/Out24x24.ico"
+            bundle="Eugenia_ArcadeTongame"/>
         <largeIcon
             xsi:type="gmftool:DefaultImage"/>
       </tools>
@@ -33,7 +37,9 @@
           title="Sound"
           description="Create new Sound">
         <smallIcon
-            xsi:type="gmftool:DefaultImage"/>
+            xsi:type="gmftool:BundleImage"
+            path="icons/Sound24x24.ico"
+            bundle="Eugenia_ArcadeTongame"/>
         <largeIcon
             xsi:type="gmftool:DefaultImage"/>
       </tools>
@@ -53,7 +59,9 @@
           title="Text"
           description="Create new Text">
         <smallIcon
-            xsi:type="gmftool:DefaultImage"/>
+            xsi:type="gmftool:BundleImage"
+            path="icons/Text24x24.ico"
+            bundle="Eugenia_ArcadeTongame"/>
         <largeIcon
             xsi:type="gmftool:DefaultImage"/>
       </tools>
@@ -62,7 +70,9 @@
           title="Wall"
           description="Create new Wall">
         <smallIcon
-            xsi:type="gmftool:DefaultImage"/>
+            xsi:type="gmftool:BundleImage"
+            path="icons/Wall24x24.ico"
+            bundle="Eugenia_ArcadeTongame"/>
         <largeIcon
             xsi:type="gmftool:DefaultImage"/>
       </tools>
@@ -76,7 +86,9 @@
           title="Opens"
           description="Create new Opens">
         <smallIcon
-            xsi:type="gmftool:DefaultImage"/>
+            xsi:type="gmftool:BundleImage"
+            path="icons/opens24x24.ico"
+            bundle="Eugenia_ArcadeTongame"/>
         <largeIcon
             xsi:type="gmftool:DefaultImage"/>
       </tools>

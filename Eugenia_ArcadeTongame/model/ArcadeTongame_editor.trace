@@ -15,39 +15,19 @@
   </nodeTraces>
   <childNodeTraces
       visualID="3006"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL' and _eClass_.name = 'Wall') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL' and _eClass_.name = 'Stage') and _containmentMF_.name = 'elements')">
-    <nodeLabelTraces
-        visualID="5007"
-        queryText="true"/>
-  </childNodeTraces>
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL' and _eClass_.name = 'Wall') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL' and _eClass_.name = 'Stage') and _containmentMF_.name = 'elements')"/>
   <childNodeTraces
       visualID="3007"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL' and _eClass_.name = 'Sound') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL' and _eClass_.name = 'Stage') and _containmentMF_.name = 'elements')">
-    <nodeLabelTraces
-        visualID="5008"
-        queryText="true"/>
-  </childNodeTraces>
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL' and _eClass_.name = 'Sound') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL' and _eClass_.name = 'Stage') and _containmentMF_.name = 'elements')"/>
   <childNodeTraces
       visualID="3008"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL' and _eClass_.name = 'Text') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL' and _eClass_.name = 'Stage') and _containmentMF_.name = 'elements')">
-    <nodeLabelTraces
-        visualID="5009"
-        queryText="true"/>
-  </childNodeTraces>
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL' and _eClass_.name = 'Text') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL' and _eClass_.name = 'Stage') and _containmentMF_.name = 'elements')"/>
   <childNodeTraces
       visualID="3009"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL' and _eClass_.name = 'In') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL' and _eClass_.name = 'Stage') and _containmentMF_.name = 'elements')">
-    <nodeLabelTraces
-        visualID="5010"
-        queryText="true"/>
-  </childNodeTraces>
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL' and _eClass_.name = 'In') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL' and _eClass_.name = 'Stage') and _containmentMF_.name = 'elements')"/>
   <childNodeTraces
       visualID="3010"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL' and _eClass_.name = 'Out') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL' and _eClass_.name = 'Stage') and _containmentMF_.name = 'elements')">
-    <nodeLabelTraces
-        visualID="5011"
-        queryText="true"/>
-  </childNodeTraces>
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL' and _eClass_.name = 'Out') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL' and _eClass_.name = 'Stage') and _containmentMF_.name = 'elements')"/>
   <linkTraces
       visualID="4003"
       queryText="modelFacet.oclIsKindOf(gmfgen::TypeLinkModelFacet) and (let _eClass_:ecore::EClass = modelFacet.oclAsType(gmfgen::TypeLinkModelFacet).metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL' and _eClass_.name = 'StagesConnection')"/>
