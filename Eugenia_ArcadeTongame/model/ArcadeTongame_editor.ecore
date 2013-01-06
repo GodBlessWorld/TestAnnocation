@@ -71,6 +71,8 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Out" eSuperTypes="#//Element">
     <eAnnotations source="gmf.node">
+      <details key="label.icon" value="false"/>
+      <details key="label.placement" value="external"/>
       <details key="figure" value="svg"/>
       <details key="svg.uri" value="platform:/plugin/Eugenia_ArcadeTongame/figures/door_close.svg"/>
     </eAnnotations>

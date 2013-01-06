@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg
+ version="1.1"
+ width="128" height="96"
+ viewBox="0 0 128 96"
+ xmlns="http://www.w3.org/2000/svg"
+ style="shape-rendering:auto">
+
+ <desc>Loudspeaker</desc>
+ <!-- Authors: Graphic design: Jeff Bonham (silsor) / SVG Code: Gennaro Prota
+      License: See http://en.wikipedia.org/wiki/Image:Sound-icon.svg -->
+
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .basket      {fill:black}
+    .wave_outer  {fill:#7f7f7f;fill-opacity:0.2}
+    .wave_middle {fill:#4c4c4c;fill-opacity:0.4}
+    .wave_inner  {fill:#191919;fill-opacity:0.6}
+    .magnet      {fill:url(#id0)}
+    .diaphragm   {fill:url(#id1)}
+    .surround    {fill:url(#id2)}
+    .in          {fill:url(#id3)}
+    .out         {fill:url(#id4)}
+   ]]>
+  </style>
+
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="21.7836" y1="74.0029" x2="21.7836" y2="21.9998">
+   <stop offset="0" stop-color="white"/>
+   <stop offset="1" stop-color="#aaa9a9"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="59.9998" y1="48.0002" x2="14.0001" y2="48.0002">
+   <stop offset="0" stop-color="#6b6b6b"/>
+   <stop offset="0.4" stop-color="#909090"/>
+   <stop offset="1" stop-color="white"/>
+  </linearGradient>
+  <linearGradient id="id2" gradientUnits="userSpaceOnUse" x1="61.9999" y1="47.9998" x2="12" y2="47.9998">
+   <stop offset="0" stop-color="#dededd"/>
+   <stop offset="0.321569" stop-color="#c4c4c3"/>
+   <stop offset="1" stop-color="#7a7a7a"/>
+  </linearGradient>
+  <linearGradient id="id3" gradientUnits="userSpaceOnUse" x1="45.367" y1="46.7148" x2="32.7737" y2="46.7148">
+   <stop offset="0" stop-color="white"/>
+   <stop offset="0.321569" stop-color="#d4d4d4"/>
+   <stop offset="1" stop-color="#c2c1c1"/>
+  </linearGradient>
+  <linearGradient id="id4" gradientUnits="userSpaceOnUse" x1="47.9779" y1="48.0009" x2="24.0226" y2="48.0009">
+   <stop offset="0" stop-color="#dededd"/>
+   <stop offset="1" stop-color="#969594"/>
+  </linearGradient>
+ </defs>
+
+ <g id="speaker_icon">
+  <path id="bottom_plate" class="basket" d="M21.3448 19.9997c-11.769,0 -21.3448,12.5612 -21.3448,27.9986 0,15.4404 9.57577,28.0013 21.3448,28.0013 11.7645,0 21.3361,-12.5605 21.3361,-28.0013 0,-15.4374 -9.57162,-27.9986 -21.3361,-27.9986z"/>
+  <path id="magnet" class="magnet" d="M21.7847 74.0029c-10.9285,0 -19.7846,-11.6394 -19.7846,-26.003 0,-14.3618 8.85615,-26 19.7846,-26 10.9243,0 19.7823,11.6383 19.7823,26 0,14.3625 -8.85804,26.003 -19.7823,26.003z"/>
+  <path id="basket" class="basket" d="M37.0003 0c-14.8867,0 -26.9982,21.0882 -26.9982,47.0069 0,25.9218 12.1122,48.9927 26.9982,48.9927 14.8883,0.00113385 26.9997,-23.0701 26.9997,-48.9927 0,-25.9188 -12.1114,-47.0069 -26.9997,-47.0069z"/>
+  <path id="surround" class="surround" d="M37.0003 91.9994c-13.8077,0 -25.0007,-19.7022 -25.0007,-44.0011 0,-24.2977 11.193,-43.9984 25.0007,-43.9984 13.8073,0 24.9996,19.7007 24.9996,43.9984 0,24.2989 -11.1923,44.0011 -24.9996,44.0011z"/>
+  <path id="diaphragm" class="diaphragm" d="M36.9995 89.9996c-12.7007,0 -22.9995,-18.8035 -22.9995,-41.9998 0,-23.1968 10.2988,-41.9991 22.9995,-41.9991 12.7033,0 23.0002,18.8035 23.0002,41.9991 0,23.1968 -10.2973,41.9998 -23.0002,41.9998z"/>
+  <g id="dust_cup">
+   <ellipse id="in" class="in" cx="39.0703" cy="46.7149" rx="6.29663" ry="10.5544"/>
+   <path id="out" class="out" d="M35.9999 68.0626c-6.61528,0 -11.9777,-8.98277 -11.9777,-20.0628 0,-11.0789 5.36199,-20.0601 11.9777,-20.0601 6.61415,0 11.978,8.98126 11.978,20.0601 0,11.08 -5.36388,20.0628 -11.978,20.0628z"/>
+  </g>
+  <path id="wave_inner" class="wave_inner" d="M77.0439 16.4333c14.5417,15.7307 14.6747,43.8862 0,62.7153 -3.80484,1.96421 -10.4341,0.21959 -8.78548,-2.0999 11.9618,-16.5407 11.8212,-44.6682 0,-58.2695 -1.6301,-2.3913 6.36319,-3.43973 8.78548,-2.34594z"/>
+  <path id="wave_middle" class="wave_middle" d="M97.0435 8.5417c14.5417,19.6659 14.6751,54.8653 0,78.4049 -3.80408,2.45555 -10.4333,0.275149 -8.7851,-2.62487 11.9618,-20.6788 11.8212,-55.8434 0,-72.8467 -1.63086,-2.98922 6.36281,-4.30071 8.7851,-2.9329l0 -0.000377951z"/>
+  <path id="wave_outer" class="wave_outer" d="M117.044 0.660659c14.5417,23.5936 14.6747,65.8221 0,94.0619 -3.80484,2.94651 -10.4341,0.329951 -8.78548,-3.14947 11.9618,-24.8076 11.8212,-66.9945 0,-87.3933 -1.6301,-3.58638 6.36319,-5.15941 8.78548,-3.5191z"/>
+ </g>
+</svg>

@@ -670,6 +670,8 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
        source, 
        new String[] 
        {
+       "label.icon", "false",
+       "label.placement", "external",
        "figure", "svg",
        "svg.uri", "platform:/plugin/Eugenia_ArcadeTongame/figures/door_close.svg"
        });

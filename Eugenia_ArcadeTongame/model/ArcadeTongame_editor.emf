@@ -53,12 +53,12 @@ class Text extends Opener {
     attr String text;
 }
 
+@gmf.node(label.icon = "false", label.placement = "none", figure = "svg", svg.uri = "platform:/plugin/Eugenia_ArcadeTongame/figures/door_close.svg")
 class In extends Element {
-    attr boolean isStart;
-    
+    attr boolean isStart;    
 }
 
-@gmf.node(figure = "svg", svg.uri = "platform:/plugin/Eugenia_ArcadeTongame/figures/door_close.svg")
+@gmf.node(label.icon = "false", label.placement = "none", figure = "svg", svg.uri = "platform:/plugin/Eugenia_ArcadeTongame/figures/door_close.svg")
 class Out extends Element {
     attr boolean isOpen;
 }
