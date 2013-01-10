@@ -42,6 +42,7 @@ abstract class Element {
 
 
 abstract class Opener extends Element {
+    attr boolean isOpener;
     @gmf.link(target.decoration="arrow", style="solid", tool.small.bundle="Eugenia_ArcadeTongame", tool.small.path="icons/opens24x24.ico")
     ref Out opens;
 }
