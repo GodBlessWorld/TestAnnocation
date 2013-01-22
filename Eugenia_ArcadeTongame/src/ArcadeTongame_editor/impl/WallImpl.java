@@ -19,24 +19,24 @@ import org.eclipse.emf.ecore.EClass;
 public class WallImpl extends OpenerImpl implements Wall
 {
   /**
-   * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @generated
-   */
+	 * @generated
+	 */
   protected WallImpl()
   {
-    super();
-  }
+		super();
+	}
 
   /**
-   * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @generated
-   */
+	 * @generated
+	 */
   @Override
   protected EClass eStaticClass()
   {
-    return ArcadeTongame_editorPackage.Literals.WALL;
-  }
+		return ArcadeTongame_editorPackage.Literals.WALL;
+	}
 
 } //WallImpl

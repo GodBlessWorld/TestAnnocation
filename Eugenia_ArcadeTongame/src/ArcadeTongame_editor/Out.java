@@ -22,29 +22,29 @@ package ArcadeTongame_editor;
 public interface Out extends Element
 {
   /**
-   * Returns the value of the '<em><b>Is Open</b></em>' attribute.
-   * <!-- begin-user-doc -->
+	 * Returns the value of the '<em><b>Is Open</b></em>' attribute.
+	 * <!-- begin-user-doc -->
    * <p>
    * If the meaning of the '<em>Is Open</em>' attribute isn't clear,
    * there really should be more of a description here...
    * </p>
    * <!-- end-user-doc -->
-   * @return the value of the '<em>Is Open</em>' attribute.
-   * @see #setIsOpen(boolean)
-   * @see ArcadeTongame_editor.ArcadeTongame_editorPackage#getOut_IsOpen()
-   * @model
-   * @generated
-   */
+	 * @return the value of the '<em>Is Open</em>' attribute.
+	 * @see #setIsOpen(boolean)
+	 * @see ArcadeTongame_editor.ArcadeTongame_editorPackage#getOut_IsOpen()
+	 * @model
+	 * @generated
+	 */
   boolean isIsOpen();
 
   /**
-   * Sets the value of the '{@link ArcadeTongame_editor.Out#isIsOpen <em>Is Open</em>}' attribute.
-   * <!-- begin-user-doc -->
+	 * Sets the value of the '{@link ArcadeTongame_editor.Out#isIsOpen <em>Is Open</em>}' attribute.
+	 * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @param value the new value of the '<em>Is Open</em>' attribute.
-   * @see #isIsOpen()
-   * @generated
-   */
+	 * @param value the new value of the '<em>Is Open</em>' attribute.
+	 * @see #isIsOpen()
+	 * @generated
+	 */
   void setIsOpen(boolean value);
 
 } // Out

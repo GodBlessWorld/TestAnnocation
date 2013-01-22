@@ -27,150 +27,146 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
 public class InImpl extends ElementImpl implements In
 {
   /**
-   * The default value of the '{@link #isIsStart() <em>Is Start</em>}' attribute.
-   * <!-- begin-user-doc -->
+	 * The default value of the '{@link #isIsStart() <em>Is Start</em>}' attribute.
+	 * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @see #isIsStart()
-   * @generated
-   * @ordered
-   */
+	 * @see #isIsStart()
+	 * @generated
+	 * @ordered
+	 */
   protected static final boolean IS_START_EDEFAULT = false;
 
   /**
-   * The cached value of the '{@link #isIsStart() <em>Is Start</em>}' attribute.
-   * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #isIsStart() <em>Is Start</em>}' attribute.
+	 * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @see #isIsStart()
-   * @generated
-   * @ordered
-   */
+	 * @see #isIsStart()
+	 * @generated
+	 * @ordered
+	 */
   protected boolean isStart = IS_START_EDEFAULT;
 
   /**
-   * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @generated
-   */
+	 * @generated
+	 */
   protected InImpl()
   {
-    super();
-  }
+		super();
+	}
 
   /**
-   * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @generated
-   */
+	 * @generated
+	 */
   @Override
   protected EClass eStaticClass()
   {
-    return ArcadeTongame_editorPackage.Literals.IN;
-  }
+		return ArcadeTongame_editorPackage.Literals.IN;
+	}
 
   /**
-   * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @generated
-   */
+	 * @generated
+	 */
   public boolean isIsStart()
   {
-    return isStart;
-  }
+		return isStart;
+	}
 
   /**
-   * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @generated
-   */
+	 * @generated
+	 */
   public void setIsStart(boolean newIsStart)
   {
-    boolean oldIsStart = isStart;
-    isStart = newIsStart;
-    if (eNotificationRequired())
-      eNotify(new ENotificationImpl(this, Notification.SET, ArcadeTongame_editorPackage.IN__IS_START, oldIsStart, isStart));
-  }
+		boolean oldIsStart = isStart;
+		isStart = newIsStart;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, ArcadeTongame_editorPackage.IN__IS_START, oldIsStart, isStart));
+	}
 
   /**
-   * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @generated
-   */
+	 * @generated
+	 */
   @Override
   public Object eGet(int featureID, boolean resolve, boolean coreType)
   {
-    switch (featureID)
-    {
-      case ArcadeTongame_editorPackage.IN__IS_START:
-        return isIsStart();
-    }
-    return super.eGet(featureID, resolve, coreType);
-  }
+		switch (featureID) {
+			case ArcadeTongame_editorPackage.IN__IS_START:
+				return isIsStart();
+		}
+		return super.eGet(featureID, resolve, coreType);
+	}
 
   /**
-   * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @generated
-   */
+	 * @generated
+	 */
   @Override
   public void eSet(int featureID, Object newValue)
   {
-    switch (featureID)
-    {
-      case ArcadeTongame_editorPackage.IN__IS_START:
-        setIsStart((Boolean)newValue);
-        return;
-    }
-    super.eSet(featureID, newValue);
-  }
+		switch (featureID) {
+			case ArcadeTongame_editorPackage.IN__IS_START:
+				setIsStart((Boolean)newValue);
+				return;
+		}
+		super.eSet(featureID, newValue);
+	}
 
   /**
-   * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @generated
-   */
+	 * @generated
+	 */
   @Override
   public void eUnset(int featureID)
   {
-    switch (featureID)
-    {
-      case ArcadeTongame_editorPackage.IN__IS_START:
-        setIsStart(IS_START_EDEFAULT);
-        return;
-    }
-    super.eUnset(featureID);
-  }
+		switch (featureID) {
+			case ArcadeTongame_editorPackage.IN__IS_START:
+				setIsStart(IS_START_EDEFAULT);
+				return;
+		}
+		super.eUnset(featureID);
+	}
 
   /**
-   * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @generated
-   */
+	 * @generated
+	 */
   @Override
   public boolean eIsSet(int featureID)
   {
-    switch (featureID)
-    {
-      case ArcadeTongame_editorPackage.IN__IS_START:
-        return isStart != IS_START_EDEFAULT;
-    }
-    return super.eIsSet(featureID);
-  }
+		switch (featureID) {
+			case ArcadeTongame_editorPackage.IN__IS_START:
+				return isStart != IS_START_EDEFAULT;
+		}
+		return super.eIsSet(featureID);
+	}
 
   /**
-   * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @generated
-   */
+	 * @generated
+	 */
   @Override
   public String toString()
   {
-    if (eIsProxy()) return super.toString();
+		if (eIsProxy()) return super.toString();
 
-    StringBuffer result = new StringBuffer(super.toString());
-    result.append(" (isStart: ");
-    result.append(isStart);
-    result.append(')');
-    return result.toString();
-  }
+		StringBuffer result = new StringBuffer(super.toString());
+		result.append(" (isStart: ");
+		result.append(isStart);
+		result.append(')');
+		return result.toString();
+	}
 
 } //InImpl
