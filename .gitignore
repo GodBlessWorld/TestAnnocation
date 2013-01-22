@@ -1,1 +1,6 @@
-*.class
+	*
+	!.gitignore
+	!Eugenia_ArcadeTongame
+	!Eugenia_ArcadeTongame.diagram
+	*.class
+	!.git
