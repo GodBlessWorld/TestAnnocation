@@ -2,5 +2,7 @@
 	!.gitignore
 	!Eugenia_ArcadeTongame
 	!Eugenia_ArcadeTongame.diagram
+	!AcceleoM2T_ArcadeTongame
+	!Prueba-Juego-Generado
 	*.class
 	!.git
