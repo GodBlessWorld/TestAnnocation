@@ -27,89 +27,83 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
  *
  * @generated
  */
-public abstract class OpenerImpl extends ElementImpl implements Opener
-{
-  /**
+public abstract class OpenerImpl extends ElementImpl implements Opener {
+	/**
 	 * The default value of the '{@link #isIsOpener() <em>Is Opener</em>}' attribute.
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isIsOpener()
 	 * @generated
 	 * @ordered
 	 */
-  protected static final boolean IS_OPENER_EDEFAULT = false;
+	protected static final boolean IS_OPENER_EDEFAULT = false;
 
-  /**
+	/**
 	 * The cached value of the '{@link #isIsOpener() <em>Is Opener</em>}' attribute.
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isIsOpener()
 	 * @generated
 	 * @ordered
 	 */
-  protected boolean isOpener = IS_OPENER_EDEFAULT;
+	protected boolean isOpener = IS_OPENER_EDEFAULT;
 
-  /**
+	/**
 	 * The cached value of the '{@link #getOpens() <em>Opens</em>}' reference.
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getOpens()
 	 * @generated
 	 * @ordered
 	 */
-  protected Out opens;
+	protected Out opens;
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  protected OpenerImpl()
-  {
+	protected OpenerImpl() {
 		super();
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  @Override
-  protected EClass eStaticClass()
-  {
+	@Override
+	protected EClass eStaticClass() {
 		return ArcadeTongame_editorPackage.Literals.OPENER;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public boolean isIsOpener()
-  {
+	public boolean isIsOpener() {
 		return isOpener;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public void setIsOpener(boolean newIsOpener)
-  {
+	public void setIsOpener(boolean newIsOpener) {
 		boolean oldIsOpener = isOpener;
 		isOpener = newIsOpener;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, ArcadeTongame_editorPackage.OPENER__IS_OPENER, oldIsOpener, isOpener));
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public Out getOpens()
-  {
+	public Out getOpens() {
 		if (opens != null && opens.eIsProxy()) {
 			InternalEObject oldOpens = (InternalEObject)opens;
 			opens = (Out)eResolveProxy(oldOpens);
@@ -121,37 +115,34 @@ public abstract class OpenerImpl extends ElementImpl implements Opener
 		return opens;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public Out basicGetOpens()
-  {
+	public Out basicGetOpens() {
 		return opens;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public void setOpens(Out newOpens)
-  {
+	public void setOpens(Out newOpens) {
 		Out oldOpens = opens;
 		opens = newOpens;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, ArcadeTongame_editorPackage.OPENER__OPENS, oldOpens, opens));
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  @Override
-  public Object eGet(int featureID, boolean resolve, boolean coreType)
-  {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case ArcadeTongame_editorPackage.OPENER__IS_OPENER:
 				return isIsOpener();
@@ -162,14 +153,13 @@ public abstract class OpenerImpl extends ElementImpl implements Opener
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  @Override
-  public void eSet(int featureID, Object newValue)
-  {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case ArcadeTongame_editorPackage.OPENER__IS_OPENER:
 				setIsOpener((Boolean)newValue);
@@ -181,14 +171,13 @@ public abstract class OpenerImpl extends ElementImpl implements Opener
 		super.eSet(featureID, newValue);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  @Override
-  public void eUnset(int featureID)
-  {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case ArcadeTongame_editorPackage.OPENER__IS_OPENER:
 				setIsOpener(IS_OPENER_EDEFAULT);
@@ -200,14 +189,13 @@ public abstract class OpenerImpl extends ElementImpl implements Opener
 		super.eUnset(featureID);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  @Override
-  public boolean eIsSet(int featureID)
-  {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case ArcadeTongame_editorPackage.OPENER__IS_OPENER:
 				return isOpener != IS_OPENER_EDEFAULT;
@@ -217,14 +205,13 @@ public abstract class OpenerImpl extends ElementImpl implements Opener
 		return super.eIsSet(featureID);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  @Override
-  public String toString()
-  {
+	@Override
+	public String toString() {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());

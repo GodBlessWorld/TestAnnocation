@@ -16,7 +16,7 @@
           description="Create new In">
         <smallIcon
             xsi:type="gmftool:BundleImage"
-            path="icons/In24x24.ico"
+            path="icons/In32.ico"
             bundle="Eugenia_ArcadeTongame"/>
         <largeIcon
             xsi:type="gmftool:DefaultImage"/>
@@ -27,7 +27,7 @@
           description="Create new Out">
         <smallIcon
             xsi:type="gmftool:BundleImage"
-            path="icons/Out24x24.ico"
+            path="icons/Out32.ico"
             bundle="Eugenia_ArcadeTongame"/>
         <largeIcon
             xsi:type="gmftool:DefaultImage"/>
@@ -38,7 +38,7 @@
           description="Create new Sound">
         <smallIcon
             xsi:type="gmftool:BundleImage"
-            path="icons/Sound24x24.ico"
+            path="icons/Sound32.ico"
             bundle="Eugenia_ArcadeTongame"/>
         <largeIcon
             xsi:type="gmftool:DefaultImage"/>
@@ -49,7 +49,7 @@
           description="Create new Stage">
         <smallIcon
             xsi:type="gmftool:BundleImage"
-            path="icons/Stage24x24.ico"
+            path="icons/Stage32.ico"
             bundle="Eugenia_ArcadeTongame"/>
         <largeIcon
             xsi:type="gmftool:DefaultImage"/>
@@ -60,7 +60,7 @@
           description="Create new Text">
         <smallIcon
             xsi:type="gmftool:BundleImage"
-            path="icons/Text24x24.ico"
+            path="icons/Text32.ico"
             bundle="Eugenia_ArcadeTongame"/>
         <largeIcon
             xsi:type="gmftool:DefaultImage"/>
@@ -71,7 +71,7 @@
           description="Create new Wall">
         <smallIcon
             xsi:type="gmftool:BundleImage"
-            path="icons/Wall24x24.ico"
+            path="icons/Wall32.ico"
             bundle="Eugenia_ArcadeTongame"/>
         <largeIcon
             xsi:type="gmftool:DefaultImage"/>
@@ -87,7 +87,7 @@
           description="Create new Opens">
         <smallIcon
             xsi:type="gmftool:BundleImage"
-            path="icons/opens24x24.ico"
+            path="icons/Opens32.ico"
             bundle="Eugenia_ArcadeTongame"/>
         <largeIcon
             xsi:type="gmftool:DefaultImage"/>
@@ -97,7 +97,9 @@
           title="StagesConnection"
           description="Create new StagesConnection">
         <smallIcon
-            xsi:type="gmftool:DefaultImage"/>
+            xsi:type="gmftool:BundleImage"
+            path="icons/StagesConnection32.ico"
+            bundle="Eugenia_ArcadeTongame"/>
         <largeIcon
             xsi:type="gmftool:DefaultImage"/>
       </tools>

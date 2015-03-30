@@ -24,80 +24,74 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
  *
  * @generated
  */
-public class InImpl extends ElementImpl implements In
-{
-  /**
+public class InImpl extends ElementImpl implements In {
+	/**
 	 * The default value of the '{@link #isIsStart() <em>Is Start</em>}' attribute.
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isIsStart()
 	 * @generated
 	 * @ordered
 	 */
-  protected static final boolean IS_START_EDEFAULT = false;
+	protected static final boolean IS_START_EDEFAULT = false;
 
-  /**
+	/**
 	 * The cached value of the '{@link #isIsStart() <em>Is Start</em>}' attribute.
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isIsStart()
 	 * @generated
 	 * @ordered
 	 */
-  protected boolean isStart = IS_START_EDEFAULT;
+	protected boolean isStart = IS_START_EDEFAULT;
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  protected InImpl()
-  {
+	protected InImpl() {
 		super();
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  @Override
-  protected EClass eStaticClass()
-  {
+	@Override
+	protected EClass eStaticClass() {
 		return ArcadeTongame_editorPackage.Literals.IN;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public boolean isIsStart()
-  {
+	public boolean isIsStart() {
 		return isStart;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public void setIsStart(boolean newIsStart)
-  {
+	public void setIsStart(boolean newIsStart) {
 		boolean oldIsStart = isStart;
 		isStart = newIsStart;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, ArcadeTongame_editorPackage.IN__IS_START, oldIsStart, isStart));
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  @Override
-  public Object eGet(int featureID, boolean resolve, boolean coreType)
-  {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case ArcadeTongame_editorPackage.IN__IS_START:
 				return isIsStart();
@@ -105,14 +99,13 @@ public class InImpl extends ElementImpl implements In
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  @Override
-  public void eSet(int featureID, Object newValue)
-  {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case ArcadeTongame_editorPackage.IN__IS_START:
 				setIsStart((Boolean)newValue);
@@ -121,14 +114,13 @@ public class InImpl extends ElementImpl implements In
 		super.eSet(featureID, newValue);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  @Override
-  public void eUnset(int featureID)
-  {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case ArcadeTongame_editorPackage.IN__IS_START:
 				setIsStart(IS_START_EDEFAULT);
@@ -137,14 +129,13 @@ public class InImpl extends ElementImpl implements In
 		super.eUnset(featureID);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  @Override
-  public boolean eIsSet(int featureID)
-  {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case ArcadeTongame_editorPackage.IN__IS_START:
 				return isStart != IS_START_EDEFAULT;
@@ -152,14 +143,13 @@ public class InImpl extends ElementImpl implements In
 		return super.eIsSet(featureID);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  @Override
-  public String toString()
-  {
+	@Override
+	public String toString() {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());

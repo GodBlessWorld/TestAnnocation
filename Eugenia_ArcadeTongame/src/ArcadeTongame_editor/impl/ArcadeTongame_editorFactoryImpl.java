@@ -18,18 +18,16 @@ import org.eclipse.emf.ecore.plugin.EcorePlugin;
  * <!-- end-user-doc -->
  * @generated
  */
-public class ArcadeTongame_editorFactoryImpl extends EFactoryImpl implements ArcadeTongame_editorFactory
-{
-  /**
+public class ArcadeTongame_editorFactoryImpl extends EFactoryImpl implements ArcadeTongame_editorFactory {
+	/**
 	 * Creates the default factory implementation.
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public static ArcadeTongame_editorFactory init()
-  {
+	public static ArcadeTongame_editorFactory init() {
 		try {
-			ArcadeTongame_editorFactory theArcadeTongame_editorFactory = (ArcadeTongame_editorFactory)EPackage.Registry.INSTANCE.getEFactory("http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL"); 
+			ArcadeTongame_editorFactory theArcadeTongame_editorFactory = (ArcadeTongame_editorFactory)EPackage.Registry.INSTANCE.getEFactory("http://chelder86.github.com/ArcadeTongame/"); 
 			if (theArcadeTongame_editorFactory != null) {
 				return theArcadeTongame_editorFactory;
 			}
@@ -40,25 +38,23 @@ public class ArcadeTongame_editorFactoryImpl extends EFactoryImpl implements Arc
 		return new ArcadeTongame_editorFactoryImpl();
 	}
 
-  /**
+	/**
 	 * Creates an instance of the factory.
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public ArcadeTongame_editorFactoryImpl()
-  {
+	public ArcadeTongame_editorFactoryImpl() {
 		super();
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  @Override
-  public EObject create(EClass eClass)
-  {
+	@Override
+	public EObject create(EClass eClass) {
 		switch (eClass.getClassifierID()) {
 			case ArcadeTongame_editorPackage.GAME: return createGame();
 			case ArcadeTongame_editorPackage.STAGE: return createStage();
@@ -73,113 +69,103 @@ public class ArcadeTongame_editorFactoryImpl extends EFactoryImpl implements Arc
 		}
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public Game createGame()
-  {
+	public Game createGame() {
 		GameImpl game = new GameImpl();
 		return game;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public Stage createStage()
-  {
+	public Stage createStage() {
 		StageImpl stage = new StageImpl();
 		return stage;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public StagesConnection createStagesConnection()
-  {
+	public StagesConnection createStagesConnection() {
 		StagesConnectionImpl stagesConnection = new StagesConnectionImpl();
 		return stagesConnection;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public Wall createWall()
-  {
+	public Wall createWall() {
 		WallImpl wall = new WallImpl();
 		return wall;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public Sound createSound()
-  {
+	public Sound createSound() {
 		SoundImpl sound = new SoundImpl();
 		return sound;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public Text createText()
-  {
+	public Text createText() {
 		TextImpl text = new TextImpl();
 		return text;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public In createIn()
-  {
+	public In createIn() {
 		InImpl in = new InImpl();
 		return in;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public Out createOut()
-  {
+	public Out createOut() {
 		OutImpl out = new OutImpl();
 		return out;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public ArcadeTongame_editorPackage getArcadeTongame_editorPackage()
-  {
+	public ArcadeTongame_editorPackage getArcadeTongame_editorPackage() {
 		return (ArcadeTongame_editorPackage)getEPackage();
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @deprecated
 	 * @generated
 	 */
-  @Deprecated
-  public static ArcadeTongame_editorPackage getPackage()
-  {
+	@Deprecated
+	public static ArcadeTongame_editorPackage getPackage() {
 		return ArcadeTongame_editorPackage.eINSTANCE;
 	}
 

@@ -28,79 +28,78 @@ import org.eclipse.emf.ecore.impl.EPackageImpl;
  * <!-- end-user-doc -->
  * @generated
  */
-public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements ArcadeTongame_editorPackage
-{
-  /**
+public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements ArcadeTongame_editorPackage {
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  private EClass gameEClass = null;
+	private EClass gameEClass = null;
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  private EClass stageEClass = null;
+	private EClass stageEClass = null;
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  private EClass stagesConnectionEClass = null;
+	private EClass stagesConnectionEClass = null;
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  private EClass elementEClass = null;
+	private EClass elementEClass = null;
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  private EClass openerEClass = null;
+	private EClass openerEClass = null;
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  private EClass wallEClass = null;
+	private EClass wallEClass = null;
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  private EClass soundEClass = null;
+	private EClass soundEClass = null;
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  private EClass textEClass = null;
+	private EClass textEClass = null;
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  private EClass inEClass = null;
+	private EClass inEClass = null;
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  private EClass outEClass = null;
+	private EClass outEClass = null;
 
-  /**
+	/**
 	 * Creates an instance of the model <b>Package</b>, registered with
 	 * {@link org.eclipse.emf.ecore.EPackage.Registry EPackage.Registry} by the package
 	 * package URI value.
@@ -109,38 +108,36 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
 	 * initialization of the package, or returns the registered package,
 	 * if one already exists.
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see org.eclipse.emf.ecore.EPackage.Registry
 	 * @see ArcadeTongame_editor.ArcadeTongame_editorPackage#eNS_URI
 	 * @see #init()
 	 * @generated
 	 */
-  private ArcadeTongame_editorPackageImpl()
-  {
+	private ArcadeTongame_editorPackageImpl() {
 		super(eNS_URI, ArcadeTongame_editorFactory.eINSTANCE);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  private static boolean isInited = false;
+	private static boolean isInited = false;
 
-  /**
+	/**
 	 * Creates, registers, and initializes the <b>Package</b> for this model, and for any others upon which it depends.
 	 * 
 	 * <p>This method is used to initialize {@link ArcadeTongame_editorPackage#eINSTANCE} when that field is accessed.
 	 * Clients should not invoke it directly. Instead, they should simply access that field to obtain the package.
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #eNS_URI
 	 * @see #createPackageContents()
 	 * @see #initializePackageContents()
 	 * @generated
 	 */
-  public static ArcadeTongame_editorPackage init()
-  {
+	public static ArcadeTongame_editorPackage init() {
 		if (isInited) return (ArcadeTongame_editorPackage)EPackage.Registry.INSTANCE.getEPackage(ArcadeTongame_editorPackage.eNS_URI);
 
 		// Obtain or create and register package
@@ -163,322 +160,291 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
 		return theArcadeTongame_editorPackage;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EClass getGame()
-  {
+	public EClass getGame() {
 		return gameEClass;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EReference getGame_Stages()
-  {
+	public EReference getGame_Stages() {
 		return (EReference)gameEClass.getEStructuralFeatures().get(0);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EReference getGame_Stagesconnections()
-  {
+	public EReference getGame_Stagesconnections() {
 		return (EReference)gameEClass.getEStructuralFeatures().get(1);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EAttribute getGame_Height()
-  {
+	public EAttribute getGame_Height() {
 		return (EAttribute)gameEClass.getEStructuralFeatures().get(2);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EAttribute getGame_Width()
-  {
+	public EAttribute getGame_Width() {
 		return (EAttribute)gameEClass.getEStructuralFeatures().get(3);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EClass getStage()
-  {
+	public EClass getStage() {
 		return stageEClass;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EReference getStage_Elements()
-  {
+	public EReference getStage_Elements() {
 		return (EReference)stageEClass.getEStructuralFeatures().get(0);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EAttribute getStage_Name()
-  {
+	public EAttribute getStage_Name() {
 		return (EAttribute)stageEClass.getEStructuralFeatures().get(1);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EClass getStagesConnection()
-  {
+	public EClass getStagesConnection() {
 		return stagesConnectionEClass;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EReference getStagesConnection_Source()
-  {
+	public EReference getStagesConnection_Source() {
 		return (EReference)stagesConnectionEClass.getEStructuralFeatures().get(0);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EReference getStagesConnection_Target()
-  {
+	public EReference getStagesConnection_Target() {
 		return (EReference)stagesConnectionEClass.getEStructuralFeatures().get(1);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EClass getElement()
-  {
+	public EClass getElement() {
 		return elementEClass;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EAttribute getElement_Name()
-  {
+	public EAttribute getElement_Name() {
 		return (EAttribute)elementEClass.getEStructuralFeatures().get(0);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EAttribute getElement_Position_x()
-  {
+	public EAttribute getElement_Position_x() {
 		return (EAttribute)elementEClass.getEStructuralFeatures().get(1);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EAttribute getElement_Position_y()
-  {
+	public EAttribute getElement_Position_y() {
 		return (EAttribute)elementEClass.getEStructuralFeatures().get(2);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EAttribute getElement_Size_x()
-  {
+	public EAttribute getElement_Size_x() {
 		return (EAttribute)elementEClass.getEStructuralFeatures().get(3);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EAttribute getElement_Size_y()
-  {
+	public EAttribute getElement_Size_y() {
 		return (EAttribute)elementEClass.getEStructuralFeatures().get(4);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EClass getOpener()
-  {
+	public EClass getOpener() {
 		return openerEClass;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EAttribute getOpener_IsOpener()
-  {
+	public EAttribute getOpener_IsOpener() {
 		return (EAttribute)openerEClass.getEStructuralFeatures().get(0);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EReference getOpener_Opens()
-  {
+	public EReference getOpener_Opens() {
 		return (EReference)openerEClass.getEStructuralFeatures().get(1);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EClass getWall()
-  {
+	public EClass getWall() {
 		return wallEClass;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EClass getSound()
-  {
+	public EClass getSound() {
 		return soundEClass;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EAttribute getSound_Filename()
-  {
+	public EAttribute getSound_Filename() {
 		return (EAttribute)soundEClass.getEStructuralFeatures().get(0);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EClass getText()
-  {
+	public EClass getText() {
 		return textEClass;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EAttribute getText_Text()
-  {
+	public EAttribute getText_Text() {
 		return (EAttribute)textEClass.getEStructuralFeatures().get(0);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EClass getIn()
-  {
+	public EClass getIn() {
 		return inEClass;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EAttribute getIn_IsStart()
-  {
+	public EAttribute getIn_IsStart() {
 		return (EAttribute)inEClass.getEStructuralFeatures().get(0);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EClass getOut()
-  {
+	public EClass getOut() {
 		return outEClass;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EAttribute getOut_IsOpen()
-  {
+	public EAttribute getOut_IsOpen() {
 		return (EAttribute)outEClass.getEStructuralFeatures().get(0);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public ArcadeTongame_editorFactory getArcadeTongame_editorFactory()
-  {
+	public ArcadeTongame_editorFactory getArcadeTongame_editorFactory() {
 		return (ArcadeTongame_editorFactory)getEFactoryInstance();
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  private boolean isCreated = false;
+	private boolean isCreated = false;
 
-  /**
+	/**
 	 * Creates the meta-model objects for the package.  This method is
 	 * guarded to have no affect on any invocation but its first.
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public void createPackageContents()
-  {
+	public void createPackageContents() {
 		if (isCreated) return;
 		isCreated = true;
 
@@ -523,22 +489,21 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
 		createEAttribute(outEClass, OUT__IS_OPEN);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  private boolean isInitialized = false;
+	private boolean isInitialized = false;
 
-  /**
+	/**
 	 * Complete the initialization of the package and its meta-model.  This
 	 * method is guarded to have no affect on any invocation but its first.
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public void initializePackageContents()
-  {
+	public void initializePackageContents() {
 		if (isInitialized) return;
 		isInitialized = true;
 
@@ -615,14 +580,13 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
 		createGmf_4Annotations();
 	}
 
-  /**
+	/**
 	 * Initializes the annotations for <b>gmf</b>.
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  protected void createGmfAnnotations()
-  {
+	protected void createGmfAnnotations() {
 		String source = "gmf";		
 		addAnnotation
 		  (this, 
@@ -632,14 +596,13 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
 		   });											
 	}
 
-  /**
+	/**
 	 * Initializes the annotations for <b>gmf.diagram</b>.
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  protected void createGmf_1Annotations()
-  {
+	protected void createGmf_1Annotations() {
 		String source = "gmf.diagram";			
 		addAnnotation
 		  (gameEClass, 
@@ -649,23 +612,22 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
 		   });										
 	}
 
-  /**
+	/**
 	 * Initializes the annotations for <b>gmf.node</b>.
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  protected void createGmf_2Annotations()
-  {
+	protected void createGmf_2Annotations() {
 		String source = "gmf.node";				
 		addAnnotation
 		  (stageEClass, 
 		   source, 
 		   new String[] {
 			 "label", "name",
-			 "size", "250,200",
+			 "size", "90,250",
 			 "tool.small.bundle", "Eugenia_ArcadeTongame",
-			 "tool.small.path", "icons/Stage24x24.ico"
+			 "tool.small.path", "icons/Stage32.ico"
 		   });				
 		addAnnotation
 		  (elementEClass, 
@@ -677,69 +639,61 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
 		  (wallEClass, 
 		   source, 
 		   new String[] {
-			 "tool.small.bundle", "Eugenia_ArcadeTongame",
-			 "tool.small.path", "icons/Wall24x24.ico",
+			 "figure", "figures.Wall",
 			 "label.icon", "false",
 			 "label.placement", "none",
-			 "figure", "svg",
-			 "svg.uri", "platform:/plugin/Eugenia_ArcadeTongame/figures/Wall.svg"
+			 "tool.small.bundle", "Eugenia_ArcadeTongame",
+			 "tool.small.path", "icons/Wall32.ico"
 		   });		
 		addAnnotation
 		  (soundEClass, 
 		   source, 
 		   new String[] {
-			 "tool.small.bundle", "Eugenia_ArcadeTongame",
-			 "tool.small.path", "icons/Sound24x24.ico",
+			 "figure", "figures.Sound",
 			 "label.icon", "false",
 			 "label.placement", "none",
-			 "figure", "svg",
-			 "svg.uri", "platform:/plugin/Eugenia_ArcadeTongame/figures/Sound.svg"
+			 "tool.small.bundle", "Eugenia_ArcadeTongame",
+			 "tool.small.path", "icons/Sound32.ico"
 		   });		
 		addAnnotation
 		  (textEClass, 
 		   source, 
 		   new String[] {
-			 "tool.small.bundle", "Eugenia_ArcadeTongame",
-			 "tool.small.path", "icons/Text24x24.ico",
+			 "figure", "figures.Text",
 			 "label.icon", "false",
 			 "label.placement", "none",
-			 "figure", "svg",
-			 "svg.uri", "platform:/plugin/Eugenia_ArcadeTongame/figures/Text.svg"
+			 "tool.small.bundle", "Eugenia_ArcadeTongame",
+			 "tool.small.path", "icons/Text32.ico"
 		   });		
 		addAnnotation
 		  (inEClass, 
 		   source, 
 		   new String[] {
-			 "tool.small.bundle", "Eugenia_ArcadeTongame",
-			 "tool.small.path", "icons/In24x24.ico",
+			 "figure", "figures.In",
 			 "label.icon", "false",
 			 "label.placement", "none",
-			 "figure", "svg",
-			 "svg.uri", "platform:/plugin/Eugenia_ArcadeTongame/figures/In.svg"
+			 "tool.small.bundle", "Eugenia_ArcadeTongame",
+			 "tool.small.path", "icons/In32.ico"
 		   });		
 		addAnnotation
 		  (outEClass, 
 		   source, 
 		   new String[] {
-			 "border.color", "184,46,50",
-			 "border.width", "30",
-			 "tool.small.bundle", "Eugenia_ArcadeTongame",
-			 "tool.small.path", "icons/Out24x24.ico",
+			 "figure", "figures.Out",
 			 "label.icon", "false",
 			 "label.placement", "none",
-			 "figure", "svg",
-			 "svg.uri", "platform:/plugin/Eugenia_ArcadeTongame/figures/Out.svg"
+			 "tool.small.bundle", "Eugenia_ArcadeTongame",
+			 "tool.small.path", "icons/Out32.ico"
 		   });
 	}
 
-  /**
+	/**
 	 * Initializes the annotations for <b>gmf.compartment</b>.
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  protected void createGmf_3Annotations()
-  {
+	protected void createGmf_3Annotations() {
 		String source = "gmf.compartment";					
 		addAnnotation
 		  (getStage_Elements(), 
@@ -749,14 +703,13 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
 		   });								
 	}
 
-  /**
+	/**
 	 * Initializes the annotations for <b>gmf.link</b>.
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  protected void createGmf_4Annotations()
-  {
+	protected void createGmf_4Annotations() {
 		String source = "gmf.link";						
 		addAnnotation
 		  (stagesConnectionEClass, 
@@ -765,7 +718,11 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
 			 "source", "source",
 			 "target", "target",
 			 "style", "dot",
-			 "width", "2"
+			 "width", "4",
+			 "color", "35,35,142",
+			 "target.decoration", "arrow",
+			 "tool.small.bundle", "Eugenia_ArcadeTongame",
+			 "tool.small.path", "icons/StagesConnection32.ico"
 		   });			
 		addAnnotation
 		  (getOpener_Opens(), 
@@ -773,8 +730,10 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
 		   new String[] {
 			 "target.decoration", "arrow",
 			 "style", "solid",
+			 "width", "3",
+			 "color", "0,100,0",
 			 "tool.small.bundle", "Eugenia_ArcadeTongame",
-			 "tool.small.path", "icons/opens24x24.ico"
+			 "tool.small.path", "icons/Opens32.ico"
 		   });					
 	}
 

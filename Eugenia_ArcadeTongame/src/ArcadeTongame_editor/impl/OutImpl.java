@@ -24,80 +24,74 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
  *
  * @generated
  */
-public class OutImpl extends ElementImpl implements Out
-{
-  /**
+public class OutImpl extends ElementImpl implements Out {
+	/**
 	 * The default value of the '{@link #isIsOpen() <em>Is Open</em>}' attribute.
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isIsOpen()
 	 * @generated
 	 * @ordered
 	 */
-  protected static final boolean IS_OPEN_EDEFAULT = false;
+	protected static final boolean IS_OPEN_EDEFAULT = false;
 
-  /**
+	/**
 	 * The cached value of the '{@link #isIsOpen() <em>Is Open</em>}' attribute.
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isIsOpen()
 	 * @generated
 	 * @ordered
 	 */
-  protected boolean isOpen = IS_OPEN_EDEFAULT;
+	protected boolean isOpen = IS_OPEN_EDEFAULT;
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  protected OutImpl()
-  {
+	protected OutImpl() {
 		super();
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  @Override
-  protected EClass eStaticClass()
-  {
+	@Override
+	protected EClass eStaticClass() {
 		return ArcadeTongame_editorPackage.Literals.OUT;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public boolean isIsOpen()
-  {
+	public boolean isIsOpen() {
 		return isOpen;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public void setIsOpen(boolean newIsOpen)
-  {
+	public void setIsOpen(boolean newIsOpen) {
 		boolean oldIsOpen = isOpen;
 		isOpen = newIsOpen;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, ArcadeTongame_editorPackage.OUT__IS_OPEN, oldIsOpen, isOpen));
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  @Override
-  public Object eGet(int featureID, boolean resolve, boolean coreType)
-  {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case ArcadeTongame_editorPackage.OUT__IS_OPEN:
 				return isIsOpen();
@@ -105,14 +99,13 @@ public class OutImpl extends ElementImpl implements Out
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  @Override
-  public void eSet(int featureID, Object newValue)
-  {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case ArcadeTongame_editorPackage.OUT__IS_OPEN:
 				setIsOpen((Boolean)newValue);
@@ -121,14 +114,13 @@ public class OutImpl extends ElementImpl implements Out
 		super.eSet(featureID, newValue);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  @Override
-  public void eUnset(int featureID)
-  {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case ArcadeTongame_editorPackage.OUT__IS_OPEN:
 				setIsOpen(IS_OPEN_EDEFAULT);
@@ -137,14 +129,13 @@ public class OutImpl extends ElementImpl implements Out
 		super.eUnset(featureID);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  @Override
-  public boolean eIsSet(int featureID)
-  {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case ArcadeTongame_editorPackage.OUT__IS_OPEN:
 				return isOpen != IS_OPEN_EDEFAULT;
@@ -152,14 +143,13 @@ public class OutImpl extends ElementImpl implements Out
 		return super.eIsSet(featureID);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  @Override
-  public String toString()
-  {
+	@Override
+	public String toString() {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());

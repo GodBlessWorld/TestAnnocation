@@ -10,9 +10,8 @@ package ArcadeTongame_editor;
  *
  *
  * @see ArcadeTongame_editor.ArcadeTongame_editorPackage#getWall()
- * @model annotation="gmf.node tool.small.bundle='Eugenia_ArcadeTongame' tool.small.path='icons/Wall24x24.ico' label.icon='false' label.placement='none' figure='svg' svg.uri='platform:/plugin/Eugenia_ArcadeTongame/figures/Wall.svg'"
+ * @model annotation="gmf.node figure='figures.Wall' label.icon='false' label.placement='none' tool.small.bundle='Eugenia_ArcadeTongame' tool.small.path='icons/Wall32.ico'"
  * @generated
  */
-public interface Wall extends Opener
-{
+public interface Wall extends Opener {
 } // Wall

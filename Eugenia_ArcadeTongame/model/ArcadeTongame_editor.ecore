@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="ArcadeTongame_editor" nsURI="http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="ArcadeTongame_editor" nsURI="http://chelder86.github.com/ArcadeTongame/"
     nsPrefix="ArcadeTongame_editor">
   <eAnnotations source="gmf">
     <details key="foo" value="bar"/>
@@ -19,9 +19,9 @@
   <eClassifiers xsi:type="ecore:EClass" name="Stage">
     <eAnnotations source="gmf.node">
       <details key="label" value="name"/>
-      <details key="size" value="250,200"/>
+      <details key="size" value="90,250"/>
       <details key="tool.small.bundle" value="Eugenia_ArcadeTongame"/>
-      <details key="tool.small.path" value="icons/Stage24x24.ico"/>
+      <details key="tool.small.path" value="icons/Stage32.ico"/>
     </eAnnotations>
     <eStructuralFeatures xsi:type="ecore:EReference" name="elements" upperBound="-1"
         eType="#//Element" containment="true">
@@ -36,7 +36,11 @@
       <details key="source" value="source"/>
       <details key="target" value="target"/>
       <details key="style" value="dot"/>
-      <details key="width" value="2"/>
+      <details key="width" value="4"/>
+      <details key="color" value="35,35,142"/>
+      <details key="target.decoration" value="arrow"/>
+      <details key="tool.small.bundle" value="Eugenia_ArcadeTongame"/>
+      <details key="tool.small.path" value="icons/StagesConnection32.ico"/>
     </eAnnotations>
     <eStructuralFeatures xsi:type="ecore:EReference" name="source" eType="#//Out"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="target" eType="#//In"/>
@@ -57,64 +61,59 @@
       <eAnnotations source="gmf.link">
         <details key="target.decoration" value="arrow"/>
         <details key="style" value="solid"/>
+        <details key="width" value="3"/>
+        <details key="color" value="0,100,0"/>
         <details key="tool.small.bundle" value="Eugenia_ArcadeTongame"/>
-        <details key="tool.small.path" value="icons/opens24x24.ico"/>
+        <details key="tool.small.path" value="icons/Opens32.ico"/>
       </eAnnotations>
     </eStructuralFeatures>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Wall" eSuperTypes="#//Opener">
     <eAnnotations source="gmf.node">
-      <details key="tool.small.bundle" value="Eugenia_ArcadeTongame"/>
-      <details key="tool.small.path" value="icons/Wall24x24.ico"/>
+      <details key="figure" value="figures.Wall"/>
       <details key="label.icon" value="false"/>
       <details key="label.placement" value="none"/>
-      <details key="figure" value="svg"/>
-      <details key="svg.uri" value="platform:/plugin/Eugenia_ArcadeTongame/figures/Wall.svg"/>
+      <details key="tool.small.bundle" value="Eugenia_ArcadeTongame"/>
+      <details key="tool.small.path" value="icons/Wall32.ico"/>
     </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Sound" eSuperTypes="#//Opener">
     <eAnnotations source="gmf.node">
-      <details key="tool.small.bundle" value="Eugenia_ArcadeTongame"/>
-      <details key="tool.small.path" value="icons/Sound24x24.ico"/>
+      <details key="figure" value="figures.Sound"/>
       <details key="label.icon" value="false"/>
       <details key="label.placement" value="none"/>
-      <details key="figure" value="svg"/>
-      <details key="svg.uri" value="platform:/plugin/Eugenia_ArcadeTongame/figures/Sound.svg"/>
+      <details key="tool.small.bundle" value="Eugenia_ArcadeTongame"/>
+      <details key="tool.small.path" value="icons/Sound32.ico"/>
     </eAnnotations>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="filename" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Text" eSuperTypes="#//Opener">
     <eAnnotations source="gmf.node">
-      <details key="tool.small.bundle" value="Eugenia_ArcadeTongame"/>
-      <details key="tool.small.path" value="icons/Text24x24.ico"/>
+      <details key="figure" value="figures.Text"/>
       <details key="label.icon" value="false"/>
       <details key="label.placement" value="none"/>
-      <details key="figure" value="svg"/>
-      <details key="svg.uri" value="platform:/plugin/Eugenia_ArcadeTongame/figures/Text.svg"/>
+      <details key="tool.small.bundle" value="Eugenia_ArcadeTongame"/>
+      <details key="tool.small.path" value="icons/Text32.ico"/>
     </eAnnotations>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="text" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="In" eSuperTypes="#//Element">
     <eAnnotations source="gmf.node">
-      <details key="tool.small.bundle" value="Eugenia_ArcadeTongame"/>
-      <details key="tool.small.path" value="icons/In24x24.ico"/>
+      <details key="figure" value="figures.In"/>
       <details key="label.icon" value="false"/>
       <details key="label.placement" value="none"/>
-      <details key="figure" value="svg"/>
-      <details key="svg.uri" value="platform:/plugin/Eugenia_ArcadeTongame/figures/In.svg"/>
+      <details key="tool.small.bundle" value="Eugenia_ArcadeTongame"/>
+      <details key="tool.small.path" value="icons/In32.ico"/>
     </eAnnotations>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="isStart" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Out" eSuperTypes="#//Element">
     <eAnnotations source="gmf.node">
-      <details key="border.color" value="184,46,50"/>
-      <details key="border.width" value="30"/>
-      <details key="tool.small.bundle" value="Eugenia_ArcadeTongame"/>
-      <details key="tool.small.path" value="icons/Out24x24.ico"/>
+      <details key="figure" value="figures.Out"/>
       <details key="label.icon" value="false"/>
       <details key="label.placement" value="none"/>
-      <details key="figure" value="svg"/>
-      <details key="svg.uri" value="platform:/plugin/Eugenia_ArcadeTongame/figures/Out.svg"/>
+      <details key="tool.small.bundle" value="Eugenia_ArcadeTongame"/>
+      <details key="tool.small.path" value="icons/Out32.ico"/>
     </eAnnotations>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="isOpen" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
   </eClassifiers>

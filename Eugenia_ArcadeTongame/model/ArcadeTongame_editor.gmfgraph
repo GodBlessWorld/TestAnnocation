@@ -10,6 +10,9 @@
         name="Default">
       <figures
           xsi:type="gmfgraph:PolylineDecoration"
+          name="StagesConnectionFigureTargetDecoration"/>
+      <figures
+          xsi:type="gmfgraph:PolylineDecoration"
           name="OpenerOpensFigureTargetDecoration"/>
       <descriptors
           name="StageFigure">
@@ -17,8 +20,8 @@
             xsi:type="gmfgraph:RoundedRectangle"
             name="StageFigure">
           <preferredSize
-              dx="250"
-              dy="200"/>
+              dx="90"
+              dy="250"/>
           <border
               xsi:type="gmfgraph:MarginBorder">
             <insets
@@ -50,102 +53,64 @@
       <descriptors
           name="WallFigure">
         <actualFigure
-            xsi:type="gmfgraph:SVGFigure"
+            xsi:type="gmfgraph:CustomFigure"
             name="WallFigure"
-            documentURI="platform:/plugin/Eugenia_ArcadeTongame/figures/Wall.svg">
-          <border
-              xsi:type="gmfgraph:MarginBorder">
-            <insets
-                top="5"
-                left="5"
-                bottom="5"
-                right="5"/>
-          </border>
-        </actualFigure>
+            qualifiedClassName="figures.Wall"/>
       </descriptors>
       <descriptors
           name="SoundFigure">
         <actualFigure
-            xsi:type="gmfgraph:SVGFigure"
+            xsi:type="gmfgraph:CustomFigure"
             name="SoundFigure"
-            documentURI="platform:/plugin/Eugenia_ArcadeTongame/figures/Sound.svg">
-          <border
-              xsi:type="gmfgraph:MarginBorder">
-            <insets
-                top="5"
-                left="5"
-                bottom="5"
-                right="5"/>
-          </border>
-        </actualFigure>
+            qualifiedClassName="figures.Sound"/>
       </descriptors>
       <descriptors
           name="TextFigure">
         <actualFigure
-            xsi:type="gmfgraph:SVGFigure"
+            xsi:type="gmfgraph:CustomFigure"
             name="TextFigure"
-            documentURI="platform:/plugin/Eugenia_ArcadeTongame/figures/Text.svg">
-          <border
-              xsi:type="gmfgraph:MarginBorder">
-            <insets
-                top="5"
-                left="5"
-                bottom="5"
-                right="5"/>
-          </border>
-        </actualFigure>
+            qualifiedClassName="figures.Text"/>
       </descriptors>
       <descriptors
           name="InFigure">
         <actualFigure
-            xsi:type="gmfgraph:SVGFigure"
+            xsi:type="gmfgraph:CustomFigure"
             name="InFigure"
-            documentURI="platform:/plugin/Eugenia_ArcadeTongame/figures/In.svg">
-          <border
-              xsi:type="gmfgraph:MarginBorder">
-            <insets
-                top="5"
-                left="5"
-                bottom="5"
-                right="5"/>
-          </border>
-        </actualFigure>
+            qualifiedClassName="figures.In"/>
       </descriptors>
       <descriptors
           name="OutFigure">
         <actualFigure
-            xsi:type="gmfgraph:SVGFigure"
+            xsi:type="gmfgraph:CustomFigure"
             name="OutFigure"
-            documentURI="platform:/plugin/Eugenia_ArcadeTongame/figures/Out.svg">
-          <foregroundColor
-              xsi:type="gmfgraph:RGBColor"
-              red="184"
-              green="46"
-              blue="50"/>
-          <border
-              xsi:type="gmfgraph:MarginBorder">
-            <insets
-                top="5"
-                left="5"
-                bottom="5"
-                right="5"/>
-          </border>
-        </actualFigure>
+            qualifiedClassName="figures.Out"/>
       </descriptors>
       <descriptors
           name="StagesConnectionFigure">
         <actualFigure
             xsi:type="gmfgraph:PolylineConnection"
             name="StagesConnectionFigure"
-            lineWidth="2"
-            lineKind="LINE_DOT"/>
+            lineWidth="4"
+            lineKind="LINE_DOT"
+            targetDecoration="/0/@figures.0/@figures.0">
+          <foregroundColor
+              xsi:type="gmfgraph:RGBColor"
+              red="35"
+              green="35"
+              blue="142"/>
+        </actualFigure>
       </descriptors>
       <descriptors
           name="OpenerOpensFigure">
         <actualFigure
             xsi:type="gmfgraph:PolylineConnection"
             name="OpenerOpensFigure"
-            targetDecoration="/0/@figures.0/@figures.0"/>
+            lineWidth="3"
+            targetDecoration="/0/@figures.0/@figures.1">
+          <foregroundColor
+              xsi:type="gmfgraph:RGBColor"
+              green="100"/>
+        </actualFigure>
       </descriptors>
       <descriptors
           name="OpenerOpensExternalLabelFigure">
@@ -160,8 +125,8 @@
       <facets
           xsi:type="gmfgraph:DefaultSizeFacet">
         <defaultSize
-            dx="250"
-            dy="200"/>
+            dx="90"
+            dy="250"/>
       </facets>
     </nodes>
     <nodes

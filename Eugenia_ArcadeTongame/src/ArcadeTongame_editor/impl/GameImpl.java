@@ -39,169 +39,159 @@ import org.eclipse.emf.ecore.util.InternalEList;
  *
  * @generated
  */
-public class GameImpl extends EObjectImpl implements Game
-{
-  /**
+public class GameImpl extends EObjectImpl implements Game {
+	/**
 	 * The cached value of the '{@link #getStages() <em>Stages</em>}' containment reference list.
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getStages()
 	 * @generated
 	 * @ordered
 	 */
-  protected EList<Stage> stages;
+	protected EList<Stage> stages;
 
-  /**
+	/**
 	 * The cached value of the '{@link #getStagesconnections() <em>Stagesconnections</em>}' containment reference list.
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getStagesconnections()
 	 * @generated
 	 * @ordered
 	 */
-  protected EList<StagesConnection> stagesconnections;
+	protected EList<StagesConnection> stagesconnections;
 
-  /**
+	/**
 	 * The default value of the '{@link #getHeight() <em>Height</em>}' attribute.
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getHeight()
 	 * @generated
 	 * @ordered
 	 */
-  protected static final float HEIGHT_EDEFAULT = 0.0F;
+	protected static final float HEIGHT_EDEFAULT = 0.0F;
 
-  /**
+	/**
 	 * The cached value of the '{@link #getHeight() <em>Height</em>}' attribute.
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getHeight()
 	 * @generated
 	 * @ordered
 	 */
-  protected float height = HEIGHT_EDEFAULT;
+	protected float height = HEIGHT_EDEFAULT;
 
-  /**
+	/**
 	 * The default value of the '{@link #getWidth() <em>Width</em>}' attribute.
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getWidth()
 	 * @generated
 	 * @ordered
 	 */
-  protected static final float WIDTH_EDEFAULT = 0.0F;
+	protected static final float WIDTH_EDEFAULT = 0.0F;
 
-  /**
+	/**
 	 * The cached value of the '{@link #getWidth() <em>Width</em>}' attribute.
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getWidth()
 	 * @generated
 	 * @ordered
 	 */
-  protected float width = WIDTH_EDEFAULT;
+	protected float width = WIDTH_EDEFAULT;
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  protected GameImpl()
-  {
+	protected GameImpl() {
 		super();
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  @Override
-  protected EClass eStaticClass()
-  {
+	@Override
+	protected EClass eStaticClass() {
 		return ArcadeTongame_editorPackage.Literals.GAME;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EList<Stage> getStages()
-  {
+	public EList<Stage> getStages() {
 		if (stages == null) {
 			stages = new EObjectContainmentEList<Stage>(Stage.class, this, ArcadeTongame_editorPackage.GAME__STAGES);
 		}
 		return stages;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public EList<StagesConnection> getStagesconnections()
-  {
+	public EList<StagesConnection> getStagesconnections() {
 		if (stagesconnections == null) {
 			stagesconnections = new EObjectContainmentEList<StagesConnection>(StagesConnection.class, this, ArcadeTongame_editorPackage.GAME__STAGESCONNECTIONS);
 		}
 		return stagesconnections;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public float getHeight()
-  {
+	public float getHeight() {
 		return height;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public void setHeight(float newHeight)
-  {
+	public void setHeight(float newHeight) {
 		float oldHeight = height;
 		height = newHeight;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, ArcadeTongame_editorPackage.GAME__HEIGHT, oldHeight, height));
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public float getWidth()
-  {
+	public float getWidth() {
 		return width;
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  public void setWidth(float newWidth)
-  {
+	public void setWidth(float newWidth) {
 		float oldWidth = width;
 		width = newWidth;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, ArcadeTongame_editorPackage.GAME__WIDTH, oldWidth, width));
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  @Override
-  public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs)
-  {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case ArcadeTongame_editorPackage.GAME__STAGES:
 				return ((InternalEList<?>)getStages()).basicRemove(otherEnd, msgs);
@@ -211,14 +201,13 @@ public class GameImpl extends EObjectImpl implements Game
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  @Override
-  public Object eGet(int featureID, boolean resolve, boolean coreType)
-  {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case ArcadeTongame_editorPackage.GAME__STAGES:
 				return getStages();
@@ -232,15 +221,14 @@ public class GameImpl extends EObjectImpl implements Game
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  @SuppressWarnings("unchecked")
-  @Override
-  public void eSet(int featureID, Object newValue)
-  {
+	@SuppressWarnings("unchecked")
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case ArcadeTongame_editorPackage.GAME__STAGES:
 				getStages().clear();
@@ -260,14 +248,13 @@ public class GameImpl extends EObjectImpl implements Game
 		super.eSet(featureID, newValue);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  @Override
-  public void eUnset(int featureID)
-  {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case ArcadeTongame_editorPackage.GAME__STAGES:
 				getStages().clear();
@@ -285,14 +272,13 @@ public class GameImpl extends EObjectImpl implements Game
 		super.eUnset(featureID);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  @Override
-  public boolean eIsSet(int featureID)
-  {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case ArcadeTongame_editorPackage.GAME__STAGES:
 				return stages != null && !stages.isEmpty();
@@ -306,14 +292,13 @@ public class GameImpl extends EObjectImpl implements Game
 		return super.eIsSet(featureID);
 	}
 
-  /**
+	/**
 	 * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-  @Override
-  public String toString()
-  {
+	@Override
+	public String toString() {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());
