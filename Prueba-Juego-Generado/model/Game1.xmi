@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ArcadeTongame_editor:Game
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ArcadeTongame_editor="http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL"
+    xsi:schemaLocation="http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL ../../Eugenia_ArcadeTongame/model/ArcadeTongame_editor.ecore"
+    height="480.0"
+    width="800.0">
+  <stages>
+    <elements
+        xsi:type="ArcadeTongame_editor:Text"
+        name=""
+        position_x="200.0"
+        position_y="470.0"
+        text="Primera respuesta: esta es una respuesta incorrecta"/>
+    <elements
+        xsi:type="ArcadeTongame_editor:Text"
+        position_x="240.0"
+        position_y="340.0"
+        opens="//@stages.0/@elements.7"
+        text="Segunda respuesta: esta respuesta es correcta"/>
+    <elements
+        xsi:type="ArcadeTongame_editor:Sound"
+        position_x="100.0"
+        position_y="100.0"
+        size_x="64.0"
+        size_y="64.0"
+        filename="Gong_4.mp3"/>
+    <elements
+        xsi:type="ArcadeTongame_editor:Wall"
+        position_x="200.0"
+        position_y="120.0"
+        size_x="64.0"
+        size_y="64.0"/>
+    <elements
+        xsi:type="ArcadeTongame_editor:Wall"
+        position_x="200.0"
+        position_y="188.0"
+        size_x="64.0"
+        size_y="64.0"/>
+    <elements
+        xsi:type="ArcadeTongame_editor:Wall"
+        position_x="264.0"
+        position_y="120.0"
+        size_x="48.0"
+        size_y="48.0"/>
+    <elements
+        xsi:type="ArcadeTongame_editor:Wall"
+        position_x="328.0"
+        position_y="120.0"
+        size_x="80.0"
+        size_y="80.0"/>
+    <elements
+        xsi:type="ArcadeTongame_editor:Out"
+        name="salida"
+        position_x="610.0"
+        position_y="-30.0"
+        size_x="256.0"
+        size_y="256.0"/>
+    <elements
+        xsi:type="ArcadeTongame_editor:In"
+        name=""
+        position_y="350.0"
+        isStart="true"/>
+    <elements
+        xsi:type="ArcadeTongame_editor:In"/>
+  </stages>
+  <stages/>
+</ArcadeTongame_editor:Game>

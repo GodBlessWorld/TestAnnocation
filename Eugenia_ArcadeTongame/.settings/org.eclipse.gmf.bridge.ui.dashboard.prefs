@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+gmf_dashboard/domainGenerationModel=platform\:/resource/Eugenia_ArcadeTongame/model/ArcadeTongame_editor.genmodel
+gmf_dashboard/domainModel=platform\:/resource/Eugenia_ArcadeTongame/model/ArcadeTongame_editor.ecore
+gmf_dashboard/generationModel=platform\:/resource/Eugenia_ArcadeTongame/model/ArcadeTongame_editor.gmfgen
+gmf_dashboard/graphicalDefinitionModel=platform\:/resource/Eugenia_ArcadeTongame/model/ArcadeTongame_editor.gmfgraph
+gmf_dashboard/mappingModel=platform\:/resource/Eugenia_ArcadeTongame/model/ArcadeTongame_editor.gmfmap
+gmf_dashboard/option_rcp=*
+gmf_dashboard/toolingDefinitionModel=platform\:/resource/Eugenia_ArcadeTongame/model/ArcadeTongame_editor.gmftool

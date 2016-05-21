@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ArcadeTongame_editor:Game xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ArcadeTongame_editor="http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL">
+  <stages name="fase 1">
+    <elements xsi:type="ArcadeTongame_editor:Wall" position_x="400.0" position_y="400.0"/>
+    <elements xsi:type="ArcadeTongame_editor:Out" name="Salida1"/>
+    <elements xsi:type="ArcadeTongame_editor:Sound" position_x="200.0" position_y="200.0" filename="sonidoprueba.mp3"/>
+    <elements xsi:type="ArcadeTongame_editor:Text" position_x="400.0" position_y="200.0" isOpener="true" opens="//@stages.0/@elements.1" text="Hola amigo"/>
+    <elements xsi:type="ArcadeTongame_editor:In"/>
+    <elements xsi:type="ArcadeTongame_editor:Text" position_x="600.0" position_y="150.0" text="Adios colega"/>
+    <elements xsi:type="ArcadeTongame_editor:Text" position_x="600.0" position_y="250.0" text="¿Que hora es?"/>
+  </stages>
+  <stages>
+    <elements xsi:type="ArcadeTongame_editor:In" name="entrada2"/>
+  </stages>
+  <stagesconnections source="//@stages.0/@elements.1" target="//@stages.1/@elements.0"/>
+</ArcadeTongame_editor:Game>
