@@ -1,7 +1,0 @@
-# Tracing options for the Eugenia_ArcadeTongame.diagram plug-in
-
-# Common issues
-Eugenia_ArcadeTongame.diagram/debug=false
-
-# Visual IDs
-Eugenia_ArcadeTongame.diagram/debug/visualID=false
