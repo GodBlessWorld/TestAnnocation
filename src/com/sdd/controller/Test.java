@@ -9,5 +9,6 @@ public class Test {
 		AnnotationManager annotationManager = new AnnotationManager("com.sdd.controller");
 		annotationManager.scanComponent();
 		annotationManager.invoke("/testAnnotation1/test1","Hello");
+		System.out.println("test github");
 	}
 }
